@@ -1,0 +1,20 @@
+{
+  "name": "Activity Hider by ID",
+  "description": "Скрывает активность других пользователей по ID в карточке сделки",
+  "version": "1.1.0",
+  "locale": {
+    "ru": {
+      "name": "Скрытие активности по ID",
+      "description": "Скрывает активность других пользователей по ID"
+    }
+  },
+  "locations": ["card"],
+  "settings": {},
+  "scripts": {
+    "card": {
+      "js": [
+        "https://example.com/hider.js"
+      ]
+    }
+  }
+}
